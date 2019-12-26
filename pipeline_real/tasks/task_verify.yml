@@ -1,6 +1,8 @@
 ---
 platform: linux
-image: docker:///maven
+image_resource:
+  type: docker-image
+  source: {repository: maven}
 
 inputs:
 - name: pipeline-code
