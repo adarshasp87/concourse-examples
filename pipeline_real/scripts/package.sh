@@ -1,5 +1,6 @@
 #!/bin/bash
-
+echo "Adarsh-task"
+echo $BUILD_ID 
 cd source-code
 mvn clean package -DskipTests
 
