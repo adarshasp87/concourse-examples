@@ -1,4 +1,4 @@
 #!/bin/bash
 
-cd source-code
-mvn clean verify
+cd pull-request
+mvn clean install
