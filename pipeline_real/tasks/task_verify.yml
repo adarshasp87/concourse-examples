@@ -6,7 +6,7 @@ image_resource:
 
 inputs:
 - name: pipeline-code
-- name: source-code
+- name: pull-request
 
 
 run:
